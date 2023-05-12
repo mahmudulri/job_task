@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:job_task/home_view.dart';
 
-import 'api_page.dart';
+import 'base_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +20,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ApiPage());
+        home: BaseView());
   }
 }
